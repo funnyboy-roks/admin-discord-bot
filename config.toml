@@ -1,0 +1,6 @@
+prefix = '?' # Prefix for all commands
+
+[economy]
+enabled = true
+format = '${VAL}.00' # Format for all of economy. Use `{VAL}` for the number EX: '£{VAL}.00' will format as £100.00
+split_nums = true # Whether or not to split numbers with commas EX: 25,000
