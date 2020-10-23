@@ -1,10 +1,12 @@
 {
-    "13": {
-        "name": "Sample User <- This is more for convenience",
-        "status": "Custom Status for server <- Idea atm",
-        "money": 0,
-        "is_admin": false,
-        "is_owner": false,
-        "admin_comments": ""
-    }
+	"users": {
+		"13": {
+			"name": "Sample User <- This is more for convenience",
+			"status": "Custom Status for server <- Idea atm",
+			"money": 0,
+			"is_admin": false,
+			"is_owner": false,
+			"admin_comments": ""
+		}
+	}
 }

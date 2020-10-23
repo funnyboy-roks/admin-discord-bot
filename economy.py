@@ -5,8 +5,6 @@ import discord, json
 from discord.ext import commands
 import helper_functions as h_func
 
-dataFile = 'data.json'
-
 class Economy(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -19,3 +17,10 @@ class Economy(commands.Cog):
     @commands.command()
     async def pay(self, ctx, to_user: discord.User, amount: int):
         print(f'{ctx.author} payed {to_user} {h_func.currency(amount)}.')
+    
+    @commands.command()
+    async def give_money(self, ctx, user: discord.User, amount: int):
+        print(type(ctx), ctx)
+        pass
+
+    
